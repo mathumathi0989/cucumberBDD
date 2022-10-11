@@ -31,6 +31,7 @@ public class WomensSteps {
 		
 		List<String> actWomensSectionList = WomensPage.getWomensMenu();
 		System.out.println("Actual Menu section headers " +actWomensSectionList);
+		
 		Assert.assertTrue(expWomensSectionList.containsAll(actWomensSectionList));
 	}
 

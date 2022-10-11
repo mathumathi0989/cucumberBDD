@@ -9,7 +9,6 @@ import io.cucumber.junit.CucumberOptions;
 		features = {"src/test/resources/Appfeatures/womensPage.feature"},
 		glue = {"stepDefinitions", "appHooks"},
 		plugin = {"pretty"}
-		
 		)
 
 
